@@ -1,9 +1,38 @@
 /* Mini Reset */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+@font-face {
+    font-family: 'Sodo Sans';
+    src: url('../fonts/SoDoSans-Bold.woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sodo Sans';
+    src: url('../fonts/SoDoSans-Regular.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sodo Sans';
+    src: url('../fonts/SoDoSans-SemiBold.woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+
+
 * {
     margin: 0;/* Espaçamento | distancia da borda para fora*/
     padding: 0;/* Espaçamento | distancia da borda para dentro*/
     border: 0;/* Utiliza espaço interno mantem tamanho widht e height*/
     box-sizing: border-box;
+    font-family:'Sodo Sans';
 }
  
 /*
@@ -18,6 +47,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
 }
 .area-header {
     height: 100px;
@@ -360,6 +390,38 @@ body {
 .footer-col a img{
     width: 120px;
  }
+.separetor{
+    width: 100%;
+    height: 2px;
+    background-color: rgba(0,0,0, .56);
+    opacity: 20%;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.footer-col i {
+    font-size: 36px;
+    margin-right: 12px;
+    
 
+}
+
+.footer-col a{
+    text-decoration: none;
+    color: black;
     
-    
+  
+}
+.footer-col.flex-col {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.footer-col.flex-col ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+
